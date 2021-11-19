@@ -1,6 +1,7 @@
 package com.simplemobiletools.filemanager.pro.activities
 
 import android.annotation.SuppressLint
+import android.app.ActionBar
 import android.net.Uri
 import android.os.Bundle
 import android.view.Menu

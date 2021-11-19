@@ -31,7 +31,7 @@
         android:id="@+id/remove_favorite"
         android:icon="@drawable/ic_star_on_vector"
         android:title="@string/remove_from_favorites"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/toggle_filename"
         android:icon="@drawable/ic_label_vector"
