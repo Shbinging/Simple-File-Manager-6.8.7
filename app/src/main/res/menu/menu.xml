@@ -11,7 +11,7 @@
         android:id="@+id/go_home"
         android:icon="@drawable/ic_home_vector"
         android:title="@string/go_to_home_folder"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="never" />
     <item
         android:id="@+id/go_to_favorite"
         android:icon="@drawable/ic_folder_open_vector"
@@ -63,8 +63,9 @@
         app:showAsAction="never"/>
     <item
         android:id="@+id/settings"
+        android:icon="@android:drawable/ic_menu_manage"
         android:title="@string/settings"
-        app:showAsAction="never"/>
+        app:showAsAction="always" />
     <item
         android:id="@+id/about"
         android:title="@string/about"
