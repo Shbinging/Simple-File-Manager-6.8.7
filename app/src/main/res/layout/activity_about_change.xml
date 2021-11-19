@@ -14,7 +14,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="修改的内容\n1.在toolbar增加setting图标和跳转\n2.在setting最后增加一个aboutChange选项\n3.新建一个aboutChange内容界面"
+        android:text="修改的内容\n1.在toolbar常驻setting，并自定义图标\n2.在setting最后增加一个“修改内容”选项\n3.新建一个修改内容界面\n4.在修改内容界面新建一个返回按钮"
         android:textAlignment="viewEnd"
         android:textColor="@color/color_accent"
         android:textSize="30sp"
