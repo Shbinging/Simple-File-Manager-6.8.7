@@ -77,7 +77,7 @@ class SettingsActivity : SimpleActivity() {
     }
 
     private fun setupAboutChange(){
-        settings_about_change.setOnClickListener{
+        settings_enable.setOnClickListener{
             startActivity(Intent(this, AboutChangeActivity::class.java))
         }
     }
