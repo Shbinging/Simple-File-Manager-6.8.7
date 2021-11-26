@@ -1,0 +1,2 @@
+This is a task about git
+I add a new file called try.txt and edit it.
