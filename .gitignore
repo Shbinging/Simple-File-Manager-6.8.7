@@ -92,3 +92,4 @@ lint/tmp/
 *.hprof
 
 *gradle*
+*properties_sample*

@@ -39,6 +39,7 @@ class SettingsActivity : SimpleActivity() {
         updateTextColors(settings_holder)
         setupSectionColors()
         invalidateOptionsMenu()
+        setupAboutChange()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -75,6 +76,11 @@ class SettingsActivity : SimpleActivity() {
         }
     }
 
+    private fun setupAboutChange(){
+        settings_enable.setOnClickListener{
+            startActivity(Intent(this, AboutChangeActivity::class.java))
+        }
+    }
     private fun setupChangeDateTimeFormat() {
         settings_change_date_time_format_holder.setOnClickListener {
             ChangeDateTimeFormatDialog(this) {}

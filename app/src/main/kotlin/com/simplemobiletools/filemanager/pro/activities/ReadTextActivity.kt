@@ -119,7 +119,6 @@ class ReadTextActivity : SimpleActivity() {
                     type = "text/plain"
                     putExtra(Intent.EXTRA_TITLE, filename)
                     addCategory(Intent.CATEGORY_OPENABLE)
-
                     startActivityForResult(this, SELECT_SAVE_FILE_INTENT)
                 }
             }

@@ -84,6 +84,10 @@
         <b>Reddit:</b>
         https://www.reddit.com/r/SimpleMobileTools
     </string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_aboutchange">AboutchangeActivity</string>
+    <string name="aboutChange">aboutChange</string>
 
     <!--
         Haven't found some strings? There's more at
